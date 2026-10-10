@@ -19,14 +19,14 @@ class MoveUrl {
 
 const move = new MoveUrl()
 
-// const timer = setInterval(() => {
-//   if (move.Time.value == 0) {
-//     clearInterval(timer)
-//     window.location.href = move.GetNew()
-//   } else {
-//     move.Time.value--
-//   }
-// }, 1000);
+const timer = setInterval(() => {
+  if (move.Time.value == 0) {
+    clearInterval(timer)
+    window.location.href = move.GetNew()
+  } else {
+    move.Time.value--
+  }
+}, 3000);
 
 </script>
 <template>

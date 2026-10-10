@@ -14,5 +14,5 @@ export const Get_Music_album = async (id: string) => {
 }
 
 export const Get_Blog_List = async () => {
-  return fetch('https://my-blog-sage-phi.vercel.app/rss.xml')
+  return fetch('https://blog.3mua.cn/rss.xml')
 }
