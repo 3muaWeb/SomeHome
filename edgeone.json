@@ -1,0 +1,9 @@
+{
+    "redirects": [
+      {
+        "source": "$host",
+        "destination": "https://3mua.cn/oopz?t=$host",
+        "statusCode": 301
+      }
+    ]
+}
